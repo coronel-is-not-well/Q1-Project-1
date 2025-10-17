@@ -1,0 +1,216 @@
+body{margin: 0;
+	background-color: black;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#head{font-size: 50px;
+	text-align: center;
+	font-family: 'DM Serif Text';}
+
+#contents{background-color: white;
+		background-image: url('bg1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 600px;
+		padding: 30px;
+		font-family: 'Reddit Sans';
+		padding-top: 10px;
+		box-sizing: border-box;}
+
+#contents h3{font-size: 30px;}
+
+#contents p{font-size: 18px}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#intro{background-color: #cfd0d4;
+	height: 600px;
+	padding: 30px;
+	font-family: 'Reddit Sans';
+	box-sizing: border-box;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;}
+
+#intro img{width: 500px;
+		height: 375px;
+		object-fit: cover;
+		border-radius: 5px}
+
+#intext{flex: 1;
+	text-align: justify;
+	justify-content: center;
+	font-size: 18px;}
+
+#Portfoliotext{font-size: 24px}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#hobbies{background-color: white;
+		height: 600px;
+		padding: 30px;
+		padding-top: 10px;
+		font-family: 'Reddit Sans';
+		box-sizing: border-box;}
+
+#hobbies h3{font-size: 30px;}
+
+#hobbies p, li{font-size: 18px}
+
+#hobbies img{width: 400px;
+			height: 400px}
+
+#hobbies td{width: 33%;
+			padding: 12px;
+			vertical-align: top}
+
+#hobbies table{width: 100%;
+			border-collapse: collapse;
+  			text-align: justify;}
+
+#hobbies img{border-radius: 5px}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#interests{background-color: #cfd0d4;
+		height: 600px;
+		padding: 30px;
+		padding-top: 10px;
+		font-family: 'Reddit Sans';
+		font-size: 18px;
+		box-sizing: border-box;}
+
+#interests h3{font-size: 30px;
+				margin-bottom: 0.05em}
+
+#interests dl, dt{font-size: 18px}
+
+#interests img{width: 300px;
+				height: 300px;
+				margin: 0 auto;
+				display: block;
+				border-radius: 5px;
+				object-fit: cover;}
+
+#interests td{width: 33%;
+			padding: 12px;
+			vertical-align: top;
+			text-align: left;}
+
+#interests table{width: 100%;
+				border-collapse: collapse;
+ 				text-align: left;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#skills{background-color: white;
+		background-image: url('bg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 600px;
+		padding: 30px;
+		padding-top: 10px;
+		font-family: 'Reddit Sans';
+		box-sizing: border-box;}
+
+#skills h3{font-size: 30px}
+
+#skills li{font-size: 24px}
+
+#skills p{font-size: 18px}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#learning{background-color: #cfd0d4;
+	height: 600px;
+	padding: 30px;
+	padding-top: 10px;
+	font-family: 'Reddit Sans';
+	font-size: 18px;
+	box-sizing: border-box;}
+
+#learning h3{font-size: 30px}
+
+#learning li, p{font-size: 18px}
+
+#learning img{width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 5px;}
+
+#imagesl{display: flex;
+		gap: 20px;
+		justify-content: center;
+		align-items: center;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#works{background-color: white;
+	height: 600px;
+	padding: 30px;
+	padding-top: 10px;
+	font-family: 'Reddit Sans';
+	box-sizing: border-box;}
+
+#works h3{font-size: 30px}
+
+#works img{width: 400px;
+			height: 400px;
+			object-fit: cover;
+			border-radius: 5px;}
+
+#worksi{display: block;
+		gap: 20px;
+		justify-content: center;
+		align-items: center;}
+
+
+#sw{transition: 0.3s ease;
+	display: block;
+  	margin: 0 auto;}		 
+
+#sw:hover{transform: scale(1.01);
+		 transform-origin: center}
+
+#drillo{transition: 0.3s ease;
+		 display: block;
+  		 margin: 0 auto;}		 
+
+#drillo:hover{transform: scale(1.01);
+		 transform-origin: center}
+
+#drillt{transition: 0.3s ease;
+		 display: block;
+  		 margin: 0 auto;}		 
+
+#drillt:hover{transform: scale(1.01);
+		 transform-origin: center}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#form{background-color: #cfd0d4;
+	height: 600px;
+	padding: 30px;
+	padding-top: 10px;
+	font-family: 'Reddit Sans';
+	font-size: 18px;
+	box-sizing: border-box;}
+
+#form h3{font-size: 30px;}
+
+label{font-family: 'Reddit Sans';
+	font-size: 18px;}
+
+input[type="text"], input[type="email"]{font-family: 'Reddit Sans';
+										font-size: 18px;
+										width: 935px}
+
+textarea{font-family: 'Reddit Sans';
+		font-size: 18px;}
+
+button, input[type="reset"]{font-family: 'Reddit Sans';
+							font-size: 18px;}
+
+#form p{text-align: center;}

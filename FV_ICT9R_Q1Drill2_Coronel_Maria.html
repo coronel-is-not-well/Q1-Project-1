@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Drill 2</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+
+<style>
+		
+.form {background-color: white;
+		margin: 10px auto;
+		padding: 30px;
+		border-radius: 12px;
+		width: 700px;
+		height: auto;
+
+}
+
+body {background-color: #854d31;
+		font-family: 'Pompiere';
+		font-size: 20px;
+
+
+}
+
+#form-box{ 
+	
+
+
+}
+
+input[type="text"], input[type="email"], select
+{width: 100%;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0);
+	border-radius: 4px;
+	font-family: 'Pompiere';
+}
+
+textarea, input[type="submit"]
+{border-radius: 4px
+}
+
+input[type="submit"]{
+	font-size: 21px;
+	text-align: center ;
+	font-family: 'Pompiere';
+	font-size: 20px;
+}
+
+input::placeholder{color: white;}
+
+#name, 
+
+</style>
+
+</head>
+
+<body>
+
+	<h1 style="text-align: center; color: white;">Movie Recommendation</h1>
+
+	<div id="form-box">
+
+	<div class="form">
+
+
+	<form action="submit" method="post">
+
+
+		<label for="name">Name:</label>
+		<br>
+		<input type="text" id="name" name="name" placeholder="Enter your name...">
+		<br><br>
+
+
+		<label for="email">Email:</label>
+		<br>
+		<input type="email" id="email" name="email" placeholder="Enter your email...">
+		<br><br>
+
+
+		<label for="movie">Movie:</label>
+		<br>
+		<input type="text" id="movie" name="movie" placeholder="Enter a movie title...">
+		<br><br>
+
+		<label for="feedback">Why do you recommend it?</label><br>
+		<textarea id="idk" name="Send message..." rows="10" cols="94" placeholder="I recommend it because..."></textarea>
+		<br><br>
+
+
+
+		<label for="genre">Genre:</label>
+		<br>
+
+		<input type="checkbox" id="comedy" name="comedy" value="comedy">
+		<label for="">Comedy</label>
+		<br>
+		<input type="checkbox" id="slice of life" name="slice of life" value="slice of life">
+		<label for="">Slice of Life</label>
+		<br>
+		<input type="checkbox" id="romance" name="romance" value="romance">
+		<label for="">Romance</label>
+		<br>
+		<input type="checkbox" id="drama" name="drama" value="drama">
+		<label for="">Drama</label>
+		<br>
+		<input type="checkbox" id="fantasy" name="fantasy" value="fantasy">
+		<label for="">Fantasy</label>
+		<br>
+		<input type="checkbox" id="horror" name="horror" value="horror">
+		<label for="">Horror</label>
+
+		<br><br>
+
+		<label for="rating">Rate the Movie:</label>
+		<br>
+
+		<input type="radio" name="rate" id="one" value="one">
+		<label for="rate">1</label> 
+		
+		<input type="radio" name="rate" id="two" value="two">
+		<label for="rate">2</label> 
+		
+		<input type="radio" name="rate" id="three" value="three">
+		<label for="rate">3</label> 
+		
+		<input type="radio" name="rate" id="four" value="four">
+		<label for="rate">4</label> 
+		
+		<input type="radio" name="rate" id="five" value="five">
+		<label for="rate">5</label> 
+		<br><br>
+
+
+
+		<label for="Grade&Section">Where did you watch it?</label>
+		<br>
+
+		<select id="Grade&Section" name="Grade&Section">
+			<option>Select</option>
+			<option>Youtube</option>
+			<option>Netflix</option>
+			<option>Bilibili</option>
+			<option>Prime</option>
+			<option>Disney+</option>
+			<option>HBO</option>
+			<option>Cinema</option>
+			<option>Pirate Website</option>
+			<option>Tiktok</option>
+		</select>
+
+		<br><br>
+
+		<input type="Submit" id="submit" name="Submit Recommendation" value="Submit Recommendation">
+
+
+	</form>
+
+
+
+	</div>
+
+	</div>
+
+		<br><br>
+
+	
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
